@@ -1,0 +1,15 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=git
+command=/usr/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/mnt/c/Users/ashpr/OneDrive/Desktop/Ashu/Programs/AntiGravProjects/LLMSimulator/build/_deps/spdlog-subbuild/spdlog-populate-prefix/tmp/spdlog-populate-gitclone.cmake
+source_dir=/mnt/c/Users/ashpr/OneDrive/Desktop/Ashu/Programs/AntiGravProjects/LLMSimulator/src/dram/ramulator2/ext/spdlog
+work_dir=/mnt/c/Users/ashpr/OneDrive/Desktop/Ashu/Programs/AntiGravProjects/LLMSimulator/src/dram/ramulator2/ext
+repository=https://github.com/gabime/spdlog.git
+remote=origin
+init_submodules=TRUE
+recurse_submodules=--recursive
+submodules=
+CMP0097=NEW
+      

@@ -1,0 +1,44 @@
+log:
+  export_gantt: false
+  gantt_directory: ./gantt
+  output_directory: ../data/
+  print_log: false
+model:
+  model_name: mixtral
+serving:
+  max_batch_size: 64
+  max_process_token: 0
+simulation:
+  data: synthesis
+  exit_out_of_memory: false
+  injection_rate: 0
+  input_len: 1024
+  iter: 2
+  mem_cap_limit: false
+  output_len: 5
+  precision_byte: 2
+  skewness: 0.0
+system:
+  distribution:
+    expert_tensor_degree: 1
+    none_expert_tensor_degree: 1
+  gpu_gen: H100
+  infiniband_gen: 400
+  num_device: 1
+  num_node: 1
+  nvlink_gen: 4
+  optimization:
+    compressed_kv: false
+    decode_mode: true
+    disagg_system: false
+    hetero_subbatch: false
+    kv_cache_reuse_rate: 0.0
+    parallel_execution: false
+    prefill_mode: false
+    reuse_kv_cache: false
+    use_absorb: false
+    use_flash_attention: false
+    use_flash_mla: false
+    use_low_unit_moe_only: false
+    use_ramulator: false
+  processor_type: GPU
