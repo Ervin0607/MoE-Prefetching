@@ -1,0 +1,8 @@
+System_Config,Variant,TBT_ms,T2FT_ms,E2E_ms,E2E_s,E2E_Speedup
+8x B100 System,Baseline GPU,4.138,105.2,4338.4,4.34,1.00x
+8x B100 System,Duplex (PE),1.624,105.2,1766.2,1.77,2.46x
+8x B100 System,Duplex (PE + ET),1.525,105.2,1665.3,1.67,2.60x
+4x H100 Mixtral 8x7B (Analytic),Baseline GPU,7.976,185.4,8344.9,8.34,1.00x
+4x H100 Mixtral 8x7B (Analytic),Duplex (Logic-PIM),3.111,185.4,3368.0,3.37,2.48x
+4x H100 Mixtral 8x7B (Ramulator),Baseline GPU,10.04,225.0,10496.0,10.5,1.00x
+4x H100 Mixtral 8x7B (Ramulator),Duplex (Logic-PIM),3.84,225.0,4153.3,4.15,2.53x

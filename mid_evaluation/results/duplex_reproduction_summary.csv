@@ -1,0 +1,4 @@
+Config,per_token_latency_us,expert_ffn_latency_us,end_timestamp_us,per_token_energy_mJ,total_energy_J,speedup,csv_path
+Baseline GPU (4x H100),7975.6,6765.3,15951.2,3226.6,6.4532,1.0,C:\Users\ashpr\OneDrive\Desktop\Ashu\Programs\AntiGravProjects\LLMSimulator\data\mixtral_synthesis_1024_5_GPU_N1_D4_TP1_DP4_maxbatch32_maxprocess524288_iter3_skew0_precision_byte2_parallel_execution0_decode.csv
+Duplex (GPU + Logic-PIM),3111.1,2152.7,6222.1,3420.78,6.8416,2.564,C:\Users\ashpr\OneDrive\Desktop\Ashu\Programs\AntiGravProjects\LLMSimulator\data\mixtral_synthesis_1024_5_GPU+LOGIC_N1_D4_TP1_DP4_maxbatch32_maxprocess524288_iter3_skew0_precision_byte2_parallel_execution0_decode.csv
+Duplex + PE (Co-processing),3111.1,2152.7,6222.1,3420.78,6.8416,2.564,C:\Users\ashpr\OneDrive\Desktop\Ashu\Programs\AntiGravProjects\LLMSimulator\data\mixtral_synthesis_1024_5_GPU+LOGIC_N1_D4_TP1_DP4_maxbatch32_maxprocess524288_iter3_skew0_precision_byte2_parallel_execution1_decode.csv

@@ -1,0 +1,14 @@
+﻿
+==========================================================================================
+ACTUAL SIMULATION RESULTS: Single-GPU (1x H100) MoE with Off-Chip DRAM
+==========================================================================================
+ batch_size  sim_step_hbm_ms  sim_expert_ffn_ms  sim_attn_ms  sim_energy_mJ  active_experts  pcie5_load_ms  pcie4_load_ms  total_step_pcie5_ms  total_step_pcie4_ms  stall_pct_pcie5  stall_pct_pcie4
+          1            7.575              6.731        0.843          735.3            2.00         352.32         704.64               359.89               712.21            97.90            98.94
+          2           12.246             11.360        0.885         1191.0            3.50         616.56        1233.12               628.81              1245.37            98.05            99.02
+          4           18.014             17.043        0.968         1758.0            5.47         963.38        1926.75               981.39              1944.76            98.16            99.07
+          8           24.296             23.155        1.136         2386.0            8.00        1409.28        2818.56              1433.58              2842.86            98.31            99.15
+         16           27.925             26.444        1.470         2781.3            8.00        1409.28        2818.56              1437.20              2846.48            98.06            99.02
+         32           29.191             27.031        2.140         2994.9            8.00        1409.28        2818.56              1438.47              2847.75            97.97            98.97
+         64           30.673             27.153        3.479         3321.0            8.00        1409.28        2818.56              1439.95              2849.23            97.87            98.92
+
+Saved results to: C:\Users\ashpr\OneDrive\Desktop\Ashu\Programs\AntiGravProjects\mid_evaluation\results\simulated_single_gpu_offchip.csv

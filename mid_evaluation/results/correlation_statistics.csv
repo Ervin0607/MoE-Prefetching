@@ -1,0 +1,8 @@
+metric,value,source
+gini_coefficient,0.0141,HuggingFace_Mixtral_8x7B_C4
+shannon_entropy_bits,2.9996,HuggingFace_Mixtral_8x7B_C4
+top2_expert_share_pct,25.89,HuggingFace_Mixtral_8x7B_C4
+top1_spatial_accuracy_pct,15.75,HuggingFace_Mixtral_8x7B_C4
+top2_spatial_accuracy_pct,51.76,HuggingFace_Mixtral_8x7B_C4
+temporal_self_persistence_pct,23.84,HuggingFace_Mixtral_8x7B_C4
+total_routing_samples,320000.0,HuggingFace_Mixtral_8x7B_C4

@@ -1,0 +1,7 @@
+=== Script Execution Log: Deliverable 2 & 3: Interconnect Scaling & Decode Step Breakdown ===
+=== Command: python mid_evaluation/scripts/exp2_interconnect_decode_benchmarks.py ===
+
+--- STDOUT ---
+Generated: C:\Users\ashpr\OneDrive\Desktop\Ashu\Programs\AntiGravProjects\mid_evaluation\plots\expert_loading_dominates_decode.png
+Generated: C:\Users\ashpr\OneDrive\Desktop\Ashu\Programs\AntiGravProjects\mid_evaluation\plots\expert_copy_vs_compute_logscale.png
+Generated: C:\Users\ashpr\OneDrive\Desktop\Ashu\Programs\AntiGravProjects\mid_evaluation\plots\interconnect_scaling_prefetch_bound.png

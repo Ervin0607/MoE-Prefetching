@@ -1,0 +1,15 @@
+﻿Loading real Hugging Face Mixtral-8x7B routing traces from: C:\Users\ashpr\OneDrive\Desktop\Ashu\Programs\AntiGravProjects\mid_evaluation\data\hf_mixtral_c4_routing.jsonl
+Loaded 10,000 tokens across 32 layers (320,000 layer-routing points).
+
+============================================================
+REAL HUGGING FACE MIXTRAL-8x7B ROUTING STATISTICS (C4 Corpus)
+============================================================
+Total layer-routing points analyzed: 320,000
+Expert Popularity Skew (Gini):       0.0141
+Shannon Entropy:                     2.9996 bits (Uniform max: 3.0000 bits)
+Top-2 Experts Cumulative Share:      25.89%
+Top-1 Spatial Prediction Accuracy:   15.75% (Baseline random: 12.5%)
+Top-2 Spatial Prediction Accuracy:   51.76% (Baseline random: 25.0%)
+Temporal Self-Persistence (Diag):    23.84% (Baseline random: 12.5%)
+Saved real correlation statistics to: C:\Users\ashpr\OneDrive\Desktop\Ashu\Programs\AntiGravProjects\mid_evaluation\results\correlation_statistics.csv
+Generated Real Dashboard: C:\Users\ashpr\OneDrive\Desktop\Ashu\Programs\AntiGravProjects\mid_evaluation\plots\spatio_temporal_correlation_dashboard.png
