@@ -1,0 +1,18 @@
+[
+  {
+    "mode": "gpu",
+    "rows": 2,
+    "step_ms": 7.975594389996,
+    "energy_per_step_mJ": 3226.6008815798323,
+    "binary_sha256": "906d97ee11b1ff81533f0b61f7266d2dde845cadea1c8fa68b5b9ff76b077757",
+    "library_sha256": "91c0f29d41ae2c6e379d20424a1f9cc2af056c05d971111dc2a1f6e128a6a049"
+  },
+  {
+    "mode": "duplex",
+    "rows": 2,
+    "step_ms": 3.1110729011935,
+    "energy_per_step_mJ": 3420.7843450662385,
+    "binary_sha256": "906d97ee11b1ff81533f0b61f7266d2dde845cadea1c8fa68b5b9ff76b077757",
+    "library_sha256": "91c0f29d41ae2c6e379d20424a1f9cc2af056c05d971111dc2a1f6e128a6a049"
+  }
+]

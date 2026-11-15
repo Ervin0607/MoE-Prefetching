@@ -1,0 +1,29 @@
+{
+  "trace": "/home/naman-bhalla/Downloads/MoE-Prefetching-main/mid_evaluation/data/hf_mixtral_c4_routing.jsonl",
+  "sha256": "0e90f0ace12d734013e9c0c37840a66e566523fe24c46d65bfdca7e9c7d40947",
+  "profile_sequence_ids": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "evaluation_sequence_ids": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "profile_tokens": 8192,
+  "evaluation_tokens": 16384,
+  "scope": "C4 routing replay; autoregressive decode provenance unverified",
+  "layers_scored": "1..31; layer 0 has no preceding layer",
+  "history_reset": "Every record and input token ID 1 (BOS)",
+  "cct_reset": "Profile snapshot at each evaluation record; online updates after scoring",
+  "tie_break": "Lower expert ID",
+  "history_score": 2,
+  "algorithm": "ST-MoE-inspired Eq.1 additive history; not hardware reproduction"
+}

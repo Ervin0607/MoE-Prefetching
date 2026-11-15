@@ -1,0 +1,34 @@
+{
+  "arguments": {
+    "tokens": 2,
+    "sequences": 1,
+    "bandwidths": [
+      32
+    ],
+    "cache_gb": [
+      32
+    ],
+    "budgets": [
+      2
+    ],
+    "modes": [
+      "cache",
+      "combined"
+    ],
+    "ramulator": true,
+    "build": "/home/naman-bhalla/Downloads/MoE-Prefetching-main/LLMSimulator/build-final",
+    "output": "/home/naman-bhalla/Downloads/MoE-Prefetching-main/final_evaluation/results/native_ramulator_check",
+    "background_w": 127,
+    "link_pj_byte": 0,
+    "predictor_w": 0
+  },
+  "hashes": {
+    "mid_evaluation/data/hf_mixtral_c4_routing.jsonl": "0e90f0ace12d734013e9c0c37840a66e566523fe24c46d65bfdca7e9c7d40947",
+    "LLMSimulator/build-final/run": "519ca507eb4b42252faa5bb0b7e47ae5312d7ec0fcb0356bea89ad4e65f7ed91",
+    "LLMSimulator/build-final/libllm_system.so": "dc6ad5526cd4e1d826363bfac0a691b40ae8710ab564638d5b2257f8035f7e7a",
+    "SSD-offloading/patch/ssd_offloading.patch": "ffe3a23a3610f3f79b0cbea1b1b37c7b6813b8ff723f7c3717f736aef3b24018",
+    "LLMSimulator/src/hardware/expert_offload.h": "8391e5c3275194b2ff25ac5de83f7606e8a3a4beeb4fb6986c39252eb7a2c085"
+  },
+  "energy": "SSD-offloading DDR5 9.2pJ/bit and 127W background; original LLMSimulator HBM writes 0.891nJ/32B; link and predictor power explicitly excluded by default, sensitivity options available",
+  "scope": "Native per-layer GPU graph, batch-one FP16 Mixtral, cold record starts, causal predictor; analytical serialized host transfers; C4 provenance not verified as autoregressive decode"
+}

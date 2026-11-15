@@ -1,0 +1,56 @@
+expert_offload:
+  background_w: 127
+  budget: 2
+  cache_bytes: 32000000000
+  events: /home/naman-bhalla/Downloads/MoE-Prefetching-main/final_evaluation/results/native_ramulator_check/seq4_combined_b2_bw32_cache32/events.csv
+  link_GBs: 32
+  link_pj_byte: 0
+  mode: combined
+  predictor_w: 0
+  profile: /home/naman-bhalla/Downloads/MoE-Prefetching-main/final_evaluation/results/native_ramulator_check/profile.tsv
+  summary: /home/naman-bhalla/Downloads/MoE-Prefetching-main/final_evaluation/results/native_ramulator_check/seq4_combined_b2_bw32_cache32/summary.csv
+  trace: /home/naman-bhalla/Downloads/MoE-Prefetching-main/final_evaluation/results/native_ramulator_check/trace_4.tsv
+log:
+  export_gantt: false
+  gantt_directory: ./gantt
+  output_directory: /home/naman-bhalla/Downloads/MoE-Prefetching-main/final_evaluation/results/native_ramulator_check/seq4_combined_b2_bw32_cache32/
+  print_log: false
+model:
+  model_name: mixtral
+serving:
+  max_batch_size: 1
+  max_process_token: 0
+simulation:
+  data: synthesis
+  exit_out_of_memory: true
+  injection_rate: 0
+  input_len: 1024
+  iter: 3
+  mem_cap_limit: false
+  output_len: 2050
+  precision_byte: 2
+  skewness: 0.0
+system:
+  distribution:
+    expert_tensor_degree: 1
+    none_expert_tensor_degree: 1
+  gpu_gen: H100
+  infiniband_gen: 400
+  num_device: 1
+  num_node: 1
+  nvlink_gen: 4
+  optimization:
+    compressed_kv: false
+    decode_mode: true
+    disagg_system: false
+    hetero_subbatch: false
+    kv_cache_reuse_rate: 0.0
+    parallel_execution: false
+    prefill_mode: false
+    reuse_kv_cache: false
+    use_absorb: false
+    use_flash_attention: false
+    use_flash_mla: false
+    use_low_unit_moe_only: false
+    use_ramulator: true
+  processor_type: GPU
